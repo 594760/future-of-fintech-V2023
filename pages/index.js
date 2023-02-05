@@ -21,6 +21,7 @@ export default function Home() {
   return (
     <main>
       <Header />
+        <a href="http://localhost:3000/Stromsjekk">Go inn and se my solution</a>
       <ChartDataFromFile />
       <ChartDataFromAPI />
     </main>
