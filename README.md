@@ -10,6 +10,8 @@ Jeg har valgt å lage en veldig simpel app i det prosjektet som ble utlevert. De
 hvor mye man kan forvente å betale i måneden på strøm med utgangspunkt i strømforbruket du har i løpet av et år.
 
 ## Hvordan kjøre programmet
+Dette funker både i Windows og Linux(Ubuntu), jeg har ikke fått teste det på MAC men mener dette skal funke der også.
+
 For å få kjøre dette må man ha [Node](https://nodejs.org/en/) og [Git](https://git-scm.com/) installert. Du trenger også
 litt kunnskap i å bruke terminalen.
 
