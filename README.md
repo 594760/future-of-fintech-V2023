@@ -1,7 +1,7 @@
 # Future of Fintech - Kodekonkurranse Vår 2023
 ## Innholdsfortegnelse
-- [Oppgave beskrivelse](#oppgave beskrivelse)
-- [Hvordan kjøre programmet](#hvordan kjøre programmet)
+- [Oppgave beskrivelse](#oppgave-beskrivelse)
+- [Hvordan kjøre programmet](#hvordan-kjøre-programmet)
 - [Oppbygning](#oppbygning)
 - [Kommentarer](#kommentarer)
 
