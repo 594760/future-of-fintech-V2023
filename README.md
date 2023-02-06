@@ -22,16 +22,19 @@ Jeg har teste det i:
 <td><img src="public/Firefox_logo,_2019%20(Custom).png" alt="Firefox.logo"></td>
 <td></td>
 <td></td>
+<td></td>
 </tr>
 
 <tr>
 <td><img src="public/Google_Chrome_icon_(February_2022)%20(Custom).png" alt="Google_Chrome.logo "></td>
 <td></td>
 <td></td>
+<td></td>
 </tr>
 
 <tr>
 <td><img src="public/Microsoft_Edge_logo_(2019)%20(Custom).png" alt="Microsoft_Edge.logo"></td>
+<td></td>
 <td></td>
 <td></td>
 </tr>
