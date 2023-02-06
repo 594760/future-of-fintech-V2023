@@ -10,7 +10,11 @@ Jeg har valgt å lage en veldig simpel app i det prosjektet som ble utlevert. De
 hvor mye man kan forvente å betale i måneden på strøm med utgangspunkt i strømforbruket du har i løpet av et år.
 
 ## Hvordan kjøre programmet
-Etter man har Clonet ned programmet fra GitHub, kan du kjøre programmet med å bruke kommandoen i terminalen
+For å få kjøre dette må man ha [Node](https://nodejs.org/en/) og [Git](https://git-scm.com/) installert. Du trenger også
+litt kunnskap i å bruke terminalen.
+
+Etter man har Clonet ned programmet fra GitHub, går man inn i prosjekt mappen med terminalen for også bruke kommandoen 
+for å starte serveren
 ```bash
 npm run dev
 ```
