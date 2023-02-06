@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <main>
       <Header />
-        <a href="/powercalculation">Go inn and se my solution</a>
+        <a href="/powerCalculation.js">Go inn and se my solution</a>
       <ChartDataFromFile />
       <ChartDataFromAPI />
     </main>

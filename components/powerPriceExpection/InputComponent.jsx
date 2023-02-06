@@ -1,4 +1,4 @@
-import styles from "./PowerPrice Expectation.module.css"
+import styles from "./PowerPriceExpectation.module.css"
 import {useState} from "react";
 import {GetData} from "./GetProvidersData";
 

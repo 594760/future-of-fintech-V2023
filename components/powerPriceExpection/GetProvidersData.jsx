@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import {console} from "next/dist/compiled/@edge-runtime/primitives/console";
-import styles from "./PowerPrice Expectation.module.css";
+import styles from "./PowerPriceExpectation.module.css";
 
 export function GetData(props){
     const [data, setData] = useState("");

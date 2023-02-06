@@ -1,4 +1,4 @@
-import styles from "./PowerPrice Expectation.module.css";
+import styles from "./PowerPriceExpectation.module.css";
 
 export function PowerPriceExpectation(){
     return(
