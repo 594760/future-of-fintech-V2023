@@ -1,17 +1,21 @@
 import styles from "./PowerPrice Expectation.module.css"
 import {useState} from "react";
-import {console} from "next/dist/compiled/@edge-runtime/primitives/console";
 import {GetData} from "./GetProvidersData";
 
 export function TextInputUsage() {
         const [response, setResponse] = useState("");
         const [inputValue, setInputValue] = useState("");
+        const [error, setError] = useState("");
 
 
         const handleClick = () => {
-            console.log(inputValue);
-            setResponse(<GetData inputValue={inputValue}/>);
-
+            if(inputValue < 1 || !inputValue){
+                setError("Du må skrive tall større en null.");
+                setResponse("");
+            } else {
+                setError("");
+                setResponse(<GetData inputValue={inputValue}/>);
+            }
         }
 
         return (
@@ -19,13 +23,14 @@ export function TextInputUsage() {
                 <div className={styles.box}>
                     <div>
                         <h3>Beregne strømpris ut i fra et års forbruk (Kwh) </h3>
-                        <br/>
+                        <p className={styles.error}>{error}</p>
                         <input className={styles.marginTen}
                                 type="number"
                                 value={inputValue}
                                 onChange={event => setInputValue(event.target.value)}
                         /> Kwh
                         <button className={styles.marginTen} onClick={handleClick}>Beregn</button>
+
                     </div>
                 </div>
                 <div>
